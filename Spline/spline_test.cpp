@@ -39,14 +39,14 @@ int main(int argc, char* argv[])
     Spline<float*> FloatPtrSpline2{ floatPtrs };
 
 
-    std::cout << "Ints:\n" << std::endl;
+    std::cout << "\nInts:" << std::endl;
     for (Real t = t0; t < t1; t += delta)
     {
       std::cout << IntSpline.GetPoint(t) << std::endl;
     }
     assert(IntSpline.GetPoint(0.0) == IntSpline.GetPoint(1.0));
 
-    std::cout << "Int Ptrs:\n" << std::endl;
+    std::cout << "\nInt Ptrs:" << std::endl;
     for (Real t = t0; t < t1; t += delta)
     {
       std::cout << IntPtrSpline.GetPoint(t) << std::endl;
@@ -54,19 +54,26 @@ int main(int argc, char* argv[])
     assert(IntPtrSpline.GetPoint(0.0) == IntPtrSpline.GetPoint(1.0));
 
 
-    std::cout << "Floats:\n" << std::endl;
+    std::cout << "\nFloats:" << std::endl;
     for (Real t = t0; t < t1; t += delta)
     {
       std::cout << FloatSpline.GetPoint(t) << std::endl;
     }
     assert(FloatSpline.GetPoint(0.0) == FloatSpline.GetPoint(1.0));
 
-    std::cout << "Float Ptrs:\n" << std::endl;
+    std::cout << "\nFloat Ptrs:" << std::endl;
     for (Real t = t0; t < t1; t += delta)
     {
       std::cout << FloatPtrSpline.GetPoint(t) << std::endl;
     }
     assert(FloatPtrSpline.GetPoint(0.0) == FloatPtrSpline.GetPoint(1.0));
+
+    std::cout << "\nFloat Ptrs2:" << std::endl;
+    for (Real t = t0; t < t1; t += delta)
+    {
+      std::cout << FloatPtrSpline2.GetPoint(t) << std::endl;
+    }
+    assert(FloatPtrSpline2.GetPoint(0.0) == FloatPtrSpline2.GetPoint(1.0));
   }
 
   //Test Cases

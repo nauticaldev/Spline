@@ -1,8 +1,9 @@
-# Super Light-Weight, Header Only, Templated Splines in C++
+# Super Light-Weight, Header Only, Templated Splines in C++ 17/20
 
 ### Tested and compiled in MSVC 142, clang 6.0.0, gcc 7.4.0
 
 ## Supports: 
+* Any compiler
 * Incremental or vector construction
 * POD, Any n-dimensonal user-defined types, Pointers to valid types (via either vector of pointers, or pointers to elements in a vector)
 	
