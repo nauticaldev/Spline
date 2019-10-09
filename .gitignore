@@ -1,0 +1,14 @@
+/.vs
+/.vs/*
+/x64
+/x86
+Spline/x64/Debug
+Spline/x64/Release
+Spline/x86/Debug
+Spline/x86/Release
+
+/Debug
+/Release
+Spline/Debug/*
+Spline/Release/*
+*.user
