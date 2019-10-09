@@ -14,8 +14,8 @@
 struct Vec2
 {
   Real x, y;
-  Vec3 operator+(const Vec2& v){ return Vec2{ x+v.x,y+v.y}; }
-  Vec3 operator-(const Vec2& v){ return Vec2{ x-v.x,y-v.y}; }
+  Vec2 operator+(const Vec2& v){ return Vec2{ x+v.x,y+v.y}; }
+  Vec2 operator-(const Vec2& v){ return Vec2{ x-v.x,y-v.y}; }
   template<class T>Vec3 operator*(const T& s){ return Vec2{ s*x,s*y}; }
 };
 ```
