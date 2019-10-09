@@ -1,6 +1,6 @@
-# Super Light-Weight, Header Only, Templated Splines in C++ 17/20
+# Super Light-Weight, Header Only, Templated Splines in C++ 
 
-### Tested and compiled in MSVC 142, clang 6.0.0, gcc 7.4.0
+### Tested and compiled with C++17/20 in MSVC 142, clang 6.0.0, gcc 7.4.0
 
 ## Supports: 
 * Any compiler
