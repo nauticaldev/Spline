@@ -4,7 +4,7 @@
 
 ## Supports: 
 * Incremental or vector construction
-* POD, User defined types, Pointers (via either vector of pointers, or pointers to elements in a vector)
+* POD, Any n-dimensonal user-defined types, Pointers to valid types (via either vector of pointers, or pointers to elements in a vector)
 	
 
 ## Requirements: 
